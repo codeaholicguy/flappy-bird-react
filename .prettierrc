@@ -1,0 +1,13 @@
+{
+  "arrowParens": "always",
+  "bracketSpacing": false,
+  "jsxBracketSameLine": true,
+  "semi": false,
+  "singleQuote": true,
+  "overrides": [
+    {
+      "files": ["*.json", ".prettierrc", ".babelrc"],
+      "options": { "parser": "json" }
+    }
+  ]
+}
